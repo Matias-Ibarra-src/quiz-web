@@ -1,0 +1,1040 @@
+.Rama {
+    width: 250px;
+    height: 30px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+.NombreRama {
+    font-size: 13px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.NombreRamaQuimica {
+    font-size: 13px;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+/*Ramas*/
+
+#ciencia {
+    background: darkcyan;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    text-align: center;
+}
+
+#ingenieria {
+    background: dodgerblue;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+    text-align: center;
+}
+
+#paleontologia {
+    background: rgb(0, 212, 113);
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    text-align: center;
+}
+
+#matematicas {
+    background: blue;
+    position: absolute;
+    top: 20px;
+    left: 380px;
+    text-align: center;
+}
+
+#astronomia {
+    background: red;
+    position: absolute;
+    top: 60px;
+    left: 380px;
+    text-align: center;
+}
+
+#fisica {
+    background: orange;
+    position: absolute;
+    top: 100px;
+    left: 380px;
+    text-align: center;
+}
+
+#quimica {
+    background: yellow;
+    position: absolute;
+    top: 20px;
+    left: 640px;
+    text-align: center;
+}
+
+#biologia {
+    background: green;
+    position: absolute;
+    top: 60px;
+    left: 640px;
+    text-align: center;
+}
+
+#primatologia {
+    background: rgb(0, 198, 212);
+    position: absolute;
+    top: 100px;
+    left: 640px;
+    text-align: center;
+}
+
+.nombre {
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.NombreQuimica {
+    font-size: 25px;
+    color: black;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+
+/*ciencias*/
+
+.Ciencias {
+    background: darkcyan;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Ciencias:hover {
+    background: dimgray;
+}
+
+#sy {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#st {
+    position: absolute;
+    top: 102px;
+    left: 50px;
+}
+
+#lh {
+    position: absolute;
+    top: 154px;
+    left: 50px;
+}
+
+#ba {
+    position: absolute;
+    top: 206px;
+    left: 50px;
+}
+
+#mh {
+    position: absolute;
+    top: 258px;
+    left: 50px;
+}
+
+#th {
+    position: absolute;
+    top: 310px;
+    left: 50px;
+}
+
+#ca {
+    position: absolute;
+    top: 362px;
+    left: 50px;
+}
+
+
+/*Abajo*/
+
+#av {
+    position: absolute;
+    top: 486px;
+    left: 894px;
+}
+
+#cv {
+    position: absolute;
+    top: 486px;
+    left: 946px;
+}
+
+
+/*ingenierias*/
+
+.ingenierias {
+    background: dodgerblue;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ingenierias:hover {
+    background: rgb(0, 58, 250);
+}
+
+#la {
+    position: absolute;
+    top: 102px;
+    left: 102px;
+}
+
+#ay {
+    position: absolute;
+    top: 154px;
+    left: 102px;
+}
+
+#cr {
+    position: absolute;
+    top: 206px;
+    left: 102px;
+}
+
+#ho {
+    position: absolute;
+    top: 258px;
+    left: 102px;
+}
+
+#k {
+    position: absolute;
+    top: 310px;
+    left: 102px;
+}
+
+#ha {
+    position: absolute;
+    top: 362px;
+    left: 102px;
+}
+
+
+/*Abajo*/
+
+#cb {
+    position: absolute;
+    top: 434px;
+    left: 270px;
+}
+
+#rr {
+    position: absolute;
+    top: 486px;
+    left: 270px;
+}
+
+
+/*Paleontologias*/
+
+.Paleonto {
+    background: rgb(0, 212, 113);
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Paleonto:hover {
+    background: rgba(3, 136, 74, 0.795);
+}
+
+#an {
+    position: absolute;
+    top: 206px;
+    left: 160px;
+}
+
+#lk {
+    position: absolute;
+    top: 258px;
+    left: 160px;
+}
+
+#ma {
+    position: absolute;
+    top: 434px;
+    left: 946px;
+}
+
+
+/*Matematicas*/
+
+.Matematicas {
+    background: blue;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Matematicas:hover {
+    background: rgb(123, 120, 255);
+}
+
+
+/*solo*/
+
+#lo {
+    position: absolute;
+    top: 362px;
+    left: 160px;
+}
+
+
+/*primera*/
+
+#c {
+    position: absolute;
+    top: 206px;
+    left: 212px;
+}
+
+#bs {
+    position: absolute;
+    top: 258px;
+    left: 212px;
+}
+
+#ag {
+    position: absolute;
+    top: 310px;
+    left: 212px;
+}
+
+#gv {
+    position: absolute;
+    top: 362px;
+    left: 212px;
+}
+
+
+/*segunda*/
+
+#sm {
+    position: absolute;
+    top: 206px;
+    left: 264px;
+}
+
+#ge {
+    position: absolute;
+    top: 258px;
+    left: 264px;
+}
+
+#mz {
+    position: absolute;
+    top: 310px;
+    left: 264px;
+}
+
+#jh {
+    position: absolute;
+    top: 362px;
+    left: 264px;
+}
+
+
+/*tercera*/
+
+#no {
+    position: absolute;
+    top: 206px;
+    left: 316px;
+}
+
+#ko {
+    position: absolute;
+    top: 258px;
+    left: 316px;
+}
+
+#h {
+    position: absolute;
+    top: 310px;
+    left: 316px;
+}
+
+#lp {
+    position: absolute;
+    top: 362px;
+    left: 316px;
+}
+
+
+/*abajo*/
+
+#cs {
+    position: absolute;
+    top: 434px;
+    left: 322px;
+}
+
+#cl {
+    position: absolute;
+    top: 486px;
+    left: 322px;
+}
+
+#wo {
+    position: absolute;
+    top: 434px;
+    left: 374px;
+}
+
+#by {
+    position: absolute;
+    top: 486px;
+    left: 374px;
+}
+
+
+/*astronomia*/
+
+.Astro {
+    background: red;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Astro:hover {
+    background: rgb(158, 1, 1);
+}
+
+
+/*Primera*/
+
+#wk {
+    position: absolute;
+    top: 206px;
+    left: 368px;
+}
+
+#hr {
+    position: absolute;
+    top: 258px;
+    left: 368px;
+}
+
+#mi {
+    position: absolute;
+    top: 310px;
+    left: 368px;
+}
+
+#z {
+    position: absolute;
+    top: 362px;
+    left: 368px;
+}
+
+
+/*segunda*/
+
+#fl {
+    position: absolute;
+    top: 206px;
+    left: 420px;
+}
+
+#lv {
+    position: absolute;
+    top: 258px;
+    left: 420px;
+}
+
+#cn {
+    position: absolute;
+    top: 310px;
+    left: 420px;
+}
+
+#rm {
+    position: absolute;
+    top: 362px;
+    left: 420px;
+}
+
+
+/*tercera*/
+
+#py {
+    position: absolute;
+    top: 206px;
+    left: 472px;
+}
+
+#ru {
+    position: absolute;
+    top: 258px;
+    left: 472px;
+}
+
+#be {
+    position: absolute;
+    top: 310px;
+    left: 472px;
+}
+
+#ti {
+    position: absolute;
+    top: 362px;
+    left: 472px;
+}
+
+
+/*abajo*/
+
+#f {
+    position: absolute;
+    top: 434px;
+    left: 426px;
+}
+
+#fe {
+    position: absolute;
+    top: 486px;
+    left: 426px;
+}
+
+#ct {
+    position: absolute;
+    top: 434px;
+    left: 478px;
+}
+
+
+/*Fisicas*/
+
+.Fisica {
+    background: orange;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Fisica:hover {
+    background: orangered;
+}
+
+
+/*Primera*/
+
+#cu {
+    position: absolute;
+    top: 206px;
+    left: 524px;
+}
+
+#jc {
+    position: absolute;
+    top: 258px;
+    left: 524px;
+}
+
+#pe {
+    position: absolute;
+    top: 310px;
+    left: 524px;
+}
+
+#w {
+    position: absolute;
+    top: 362px;
+    left: 524px;
+}
+
+
+/*segunda*/
+
+#mt {
+    position: absolute;
+    top: 206px;
+    left: 576px;
+}
+
+#gp {
+    position: absolute;
+    top: 258px;
+    left: 576px;
+}
+
+#sr {
+    position: absolute;
+    top: 310px;
+    left: 576px;
+}
+
+#bu {
+    position: absolute;
+    top: 362px;
+    left: 576px;
+}
+
+
+/*tercera*/
+
+#dr {
+    position: absolute;
+    top: 206px;
+    left: 628px;
+}
+
+#jk {
+    position: absolute;
+    top: 258px;
+    left: 628px;
+}
+
+#tk {
+    position: absolute;
+    top: 310px;
+    left: 628px;
+}
+
+#fy {
+    position: absolute;
+    top: 362px;
+    left: 628px;
+}
+
+
+/*Abajo*/
+
+#rd {
+    position: absolute;
+    top: 486px;
+    left: 478px;
+}
+
+#yz {
+    position: absolute;
+    top: 434px;
+    left: 530px;
+}
+
+#mr {
+    position: absolute;
+    top: 486px;
+    left: 530px;
+}
+
+#mb {
+    position: absolute;
+    top: 434px;
+    left: 582px;
+}
+
+#si {
+    position: absolute;
+    top: 486px;
+    left: 582px;
+}
+
+
+/*Quimicas*/
+
+.Quimica {
+    background: yellow;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Quimica:hover {
+    background: yellowgreen;
+}
+
+
+/*Primera fila*/
+
+#cw {
+    position: absolute;
+    top: 154px;
+    left: 686px;
+}
+
+#fr {
+    position: absolute;
+    top: 206px;
+    left: 686px;
+}
+
+#nd {
+    position: absolute;
+    top: 258px;
+    left: 686px;
+}
+
+#pz {
+    position: absolute;
+    top: 310px;
+    left: 686px;
+}
+
+#pc {
+    position: absolute;
+    top: 362px;
+    left: 686px;
+}
+
+
+/*Segunda fila*/
+
+#rc {
+    position: absolute;
+    top: 258px;
+    left: 738px;
+}
+
+#bb {
+    position: absolute;
+    top: 310px;
+    left: 738px;
+}
+
+#ln {
+    position: absolute;
+    top: 362px;
+    left: 738px;
+}
+
+
+/*Tercera fila*/
+
+#yn {
+    position: absolute;
+    top: 310px;
+    left: 790px;
+}
+
+#al {
+    position: absolute;
+    top: 362px;
+    left: 790px;
+}
+
+
+/*Cuarta fila*/
+
+#me {
+    position: absolute;
+    top: 362px;
+    left: 842px;
+}
+
+
+/*Abajo*/
+
+#bn {
+    position: absolute;
+    top: 434px;
+    left: 634px;
+}
+
+#ju {
+    position: absolute;
+    top: 434px;
+    left: 686px;
+}
+
+#fu {
+    position: absolute;
+    top: 486px;
+    left: 634px;
+}
+
+#mn {
+    position: absolute;
+    top: 486px;
+    left: 686px;
+}
+
+
+/*Bioquimicas*/
+
+.Bioquimica {
+    background: green;
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Bioquimica:hover {
+    background: rgb(0, 87, 0);
+}
+
+
+/*primera fila*/
+
+#hg {
+    position: absolute;
+    top: 102px;
+    left: 686px;
+}
+
+
+/*segunda fila*/
+
+#bl {
+    position: absolute;
+    top: 102px;
+    left: 738px;
+}
+
+#sc {
+    position: absolute;
+    top: 154px;
+    left: 738px;
+}
+
+#mg {
+    position: absolute;
+    top: 206px;
+    left: 738px;
+}
+
+
+/*tercera fila*/
+
+#ap {
+    position: absolute;
+    top: 102px;
+    left: 790px;
+}
+
+#t {
+    position: absolute;
+    top: 154px;
+    left: 790px;
+}
+
+#bw {
+    position: absolute;
+    top: 206px;
+    left: 790px;
+}
+
+#ng {
+    position: absolute;
+    top: 258px;
+    left: 790px;
+}
+
+
+/*Cuarta fila*/
+
+#sv {
+    position: absolute;
+    top: 102px;
+    left: 842px;
+}
+
+#wt {
+    position: absolute;
+    top: 154px;
+    left: 842px;
+}
+
+#kl {
+    position: absolute;
+    top: 206px;
+    left: 842px;
+}
+
+#ch {
+    position: absolute;
+    top: 258px;
+    left: 842px;
+}
+
+#do {
+    position: absolute;
+    top: 310px;
+    left: 842px;
+}
+
+
+/*quinta fila*/
+
+#lm {
+    position: absolute;
+    top: 102px;
+    left: 894px;
+}
+
+#nu {
+    position: absolute;
+    top: 154px;
+    left: 894px;
+}
+
+#br {
+    position: absolute;
+    top: 206px;
+    left: 894px;
+}
+
+#gr {
+    position: absolute;
+    top: 258px;
+    left: 894px;
+}
+
+#y {
+    position: absolute;
+    top: 310px;
+    left: 894px;
+}
+
+#bt {
+    position: absolute;
+    top: 362px;
+    left: 894px;
+}
+
+
+/*Sexta fila*/
+
+#yw {
+    position: absolute;
+    top: 50px;
+    left: 946px;
+}
+
+#sn {
+    position: absolute;
+    top: 102px;
+    left: 946px;
+}
+
+#el {
+    position: absolute;
+    top: 154px;
+    left: 946px;
+}
+
+#co {
+    position: absolute;
+    top: 206px;
+    left: 946px;
+}
+
+#ck {
+    position: absolute;
+    top: 258px;
+    left: 946px;
+}
+
+#b {
+    position: absolute;
+    top: 310px;
+    left: 946px;
+}
+
+#ms {
+    position: absolute;
+    top: 362px;
+    left: 946px;
+}
+
+
+/*abajo*/
+
+#sl {
+    position: absolute;
+    top: 434px;
+    left: 738px;
+}
+
+#vr {
+    position: absolute;
+    top: 486px;
+    left: 738px;
+}
+
+#bc {
+    position: absolute;
+    top: 434px;
+    left: 790px;
+}
+
+#ni {
+    position: absolute;
+    top: 486px;
+    left: 790px;
+}
+
+#zn {
+    position: absolute;
+    top: 434px;
+    left: 842px;
+}
+
+#bd {
+    position: absolute;
+    top: 486px;
+    left: 842px;
+}
+
+#mo {
+    position: absolute;
+    top: 434px;
+    left: 894px;
+}
+
+
+/*Primatologicas*/
+
+.Prima {
+    background: rgb(0, 198, 212);
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Prima:hover {
+    background: rgba(1, 161, 182, 0.733);
+}
+
+#gd {
+    position: absolute;
+    top: 310px;
+    left: 160px;
+}

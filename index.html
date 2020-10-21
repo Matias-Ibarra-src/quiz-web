@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="tabla perdiodica de ciencias">
+    <meta name="keywords" content="Tabla,periodica,Ciencias">
+    <meta name="author" content="Matias Ibarra" />
+    <meta charset="utf-8" />
+    <title>Tabla de Ciencias </title>
+
+    <!--css-->
+    <link rel="stylesheet" href="cssfortabla.css">
+
+    <!--script-->
+    <script src="src/dist/index.js"></script>
+</head>
+
+<body>
+    <div class="Rama" id="ciencia">
+        <p class="NombreRama">Ciencias naturales</p>
+    </div>
+    <div class="Rama" id="ingenieria">
+        <p class="NombreRama">Inventoras/ingenieras</p>
+    </div>
+    <div class="Rama" id="paleontologia">
+        <p class="NombreRama">paleontólogas</p>
+    </div>
+    <div class="Rama" id="matematicas">
+        <p class="NombreRama">Matemáticas</p>
+    </div>
+    <div class="Rama" id="astronomia">
+        <p class="NombreRama">Astrónomas</p>
+    </div>
+    <div class="Rama" id="fisica">
+        <p class="NombreRama">Fisícas</p>
+    </div>
+    <div class="Rama" id="quimica">
+        <p class="NombreRamaQuimica">Químicas</p>
+    </div>
+    <div class="Rama" id="biologia">
+        <p class="NombreRama">Bioquímica/biología/medicina</p>
+    </div>
+    <div class="Rama" id="primatologia">
+        <p class="NombreRama">Primatólogas</p>
+    </div>
+    <!--Ciencias-->
+    <div class="Ciencias" id="sy">
+        <p class="nombre" onclick="AlHacerClick('sy')">Sy</p>
+    </div>
+    <div class="Ciencias" id="st">
+        <p class="nombre" onclick="AlHacerClick('st')">St</p>
+    </div>
+    <div class="Ciencias" id="lh">
+        <p class="nombre" onclick="AlHacerClick('lh')">Lh</p>
+    </div>
+    <div class="Ciencias" id="ba">
+        <p class="nombre" onclick="AlHacerClick('ba')">Ba</p>
+    </div>
+    <div class="Ciencias" id="mh">
+        <p class="nombre" onclick="AlHacerClick('mh')">Mh</p>
+    </div>
+    <div class="Ciencias" id="th">
+        <p class="nombre" onclick="AlHacerClick('th')">Th</p>
+    </div>
+    <div class="Ciencias" id="ca">
+        <p class="nombre" onclick="AlHacerClick('ca')">Ca</p>
+    </div>
+    <!--abajo-->
+    <div class="Ciencias" id="av">
+        <p class="nombre" onclick="AlHacerClick('av')">Av</p>
+    </div>
+    <div class="Ciencias" id="cv">
+        <p class="nombre" onclick="AlHacerClick('cv')">Cv</p>
+    </div>
+    <!--ingenierias-->
+    <div class="ingenierias" id="la">
+        <p class="nombre" onclick="AlHacerClick('la')">La</p>
+    </div>
+    <div class="ingenierias" id="ay">
+        <p class="nombre" onclick="AlHacerClick('st')">Ay</p>
+    </div>
+    <div class="ingenierias" id="cr">
+        <p class="nombre" onclick="AlHacerClick('st')">Cr</p>
+    </div>
+    <div class="ingenierias" id="ho">
+        <p class="nombre">Ho</p>
+    </div>
+    <div class="ingenierias" id="k">
+        <p class="nombre">K</p>
+    </div>
+    <div class="ingenierias" id="ha">
+        <p class="nombre">Ha</p>
+    </div>
+    <!--abajo-->
+    <div class="ingenierias" id="cb">
+        <p class="nombre">Cb</p>
+    </div>
+    <div class="ingenierias" id="rr">
+        <p class="nombre">Rr</p>
+    </div>
+    <!--paleontologias-->
+    <div class="Paleonto" id="an">
+        <p class="nombre">An</p>
+    </div>
+    <div class="Paleonto" id="lk">
+        <p class="nombre">LK</p>
+    </div>
+    <!--abajo-->
+    <div class="Paleonto" id="ma">
+        <p class="nombre">Ma</p>
+    </div>
+    <!--Matematicas-->
+    <div class="Matematicas" id="lo">
+        <p class="nombre">Lo</p>
+    </div>
+    <div class="Matematicas" id="c">
+        <p class="nombre">C</p>
+    </div>
+    <div class="Matematicas" id="bs">
+        <p class="nombre">Bs</p>
+    </div>
+    <div class="Matematicas" id="ag">
+        <p class="nombre">Ag</p>
+    </div>
+    <div class="Matematicas" id="gv">
+        <p class="nombre">Gv</p>
+    </div>
+
+    <div class="Matematicas" id="sm">
+        <p class="nombre">Sm</p>
+    </div>
+    <div class="Matematicas" id="ge">
+        <p class="nombre">Ge</p>
+    </div>
+    <div class="Matematicas" id="mz">
+        <p class="nombre">Mz</p>
+    </div>
+    <div class="Matematicas" id="jh">
+        <p class="nombre">Jh</p>
+    </div>
+    <div class="Matematicas" id="no">
+        <p class="nombre">No</p>
+    </div>
+    <div class="Matematicas" id="ko">
+        <p class="nombre">Ko</p>
+    </div>
+    <div class="Matematicas" id="h">
+        <p class="nombre">H</p>
+    </div>
+    <div class="Matematicas" id="lp">
+        <p class="nombre">Lp</p>
+    </div>
+    <!--abajo-->
+    <div class="Matematicas" id="cs">
+        <p class="nombre">Cs</p>
+    </div>
+    <div class="Matematicas" id="cl">
+        <p class="nombre">Cl</p>
+    </div>
+    <div class="Matematicas" id="wo">
+        <p class="nombre">Wo</p>
+    </div>
+    <div class="Matematicas" id="by">
+        <p class="nombre">By</p>
+    </div>
+    <!--Astronomas-->
+    <div class="Astro" id="wk">
+        <p class="nombre">Wk</p>
+    </div>
+    <div class="Astro" id="hr">
+        <p class="nombre">Hr</p>
+    </div>
+    <div class="Astro" id="mi">
+        <p class="nombre">Mi</p>
+    </div>
+    <div class="Astro" id="z">
+        <p class="nombre">Z</p>
+    </div>
+    <div class="Astro" id="fl">
+        <p class="nombre">Fl</p>
+    </div>
+    <div class="Astro" id="lv">
+        <p class="nombre">Lv</p>
+    </div>
+    <div class="Astro" id="cn">
+        <p class="nombre">Cn</p>
+    </div>
+    <div class="Astro" id="rm">
+        <p class="nombre">Rm</p>
+    </div>
+    <div class="Astro" id="py">
+        <p class="nombre">Py</p>
+    </div>
+    <div class="Astro" id="ru">
+        <p class="nombre">Ru</p>
+    </div>
+    <div class="Astro" id="be">
+        <p class="nombre">Be</p>
+    </div>
+    <div class="Astro" id="ti">
+        <p class="nombre">Ti</p>
+    </div>
+    <!--abajo-->
+    <div class="Astro" id="f">
+        <p class="nombre">F</p>
+    </div>
+    <div class="Astro" id="fe">
+        <p class="nombre">Fe</p>
+    </div>
+    <div class="Astro" id="ct">
+        <p class="nombre">Ct</p>
+    </div>
+    <!--Fisicas-->
+    <div class="Fisica" id="cu">
+        <p class="nombre">Cu</p>
+    </div>
+    <div class="Fisica" id="jc">
+        <p class="nombre">Jc</p>
+    </div>
+    <div class="Fisica" id="pe">
+        <p class="nombre">Pe</p>
+    </div>
+    <div class="Fisica" id="w">
+        <p class="nombre">W</p>
+    </div>
+    <div class="Fisica" id="mt">
+        <p class="nombre">Mt</p>
+    </div>
+    <div class="Fisica" id="gp">
+        <p class="nombre">Gp</p>
+    </div>
+    <div class="Fisica" id="sr">
+        <p class="nombre">Sr</p>
+    </div>
+    <div class="Fisica" id="bu">
+        <p class="nombre">Bu</p>
+    </div>
+    <div class="Fisica" id="dr">
+        <p class="nombre">Dr</p>
+    </div>
+    <div class="Fisica" id="jk">
+        <p class="nombre">Jk</p>
+    </div>
+    <div class="Fisica" id="tk">
+        <p class="nombre">Tk</p>
+    </div>
+    <div class="Fisica" id="fy">
+        <p class="nombre">Fy</p>
+    </div>
+    <!--abajo-->
+    <div class="Fisica" id="rd">
+        <p class="nombre">Rd</p>
+    </div>
+    <div class="Fisica" id="yz">
+        <p class="nombre">Yz</p>
+    </div>
+    <div class="Fisica" id="mr">
+        <p class="nombre">Mr</p>
+    </div>
+    <div class="Fisica" id="mb">
+        <p class="nombre">Mb</p>
+    </div>
+    <div class="Fisica" id="si">
+        <p class="nombre">Si</p>
+    </div>
+    <!--Quimicas-->
+    <div class="Quimica" id="cw">
+        <p class="NombreQuimica">Cw</p>
+    </div>
+    <div class="Quimica" id="fr">
+        <p class="NombreQuimica">Fr</p>
+    </div>
+    <div class="Quimica" id="nd">
+        <p class="NombreQuimica">Nd</p>
+    </div>
+    <div class="Quimica" id="pz">
+        <p class="NombreQuimica">Pz</p>
+    </div>
+    <div class="Quimica" id="pc">
+        <p class="NombreQuimica">Pc</p>
+    </div>
+    <div class="Quimica" id="rc">
+        <p class="NombreQuimica">Rc</p>
+    </div>
+    <div class="Quimica" id="bb">
+        <p class="NombreQuimica">Bb</p>
+    </div>
+    <div class="Quimica" id="ln">
+        <p class="NombreQuimica">Ln</p>
+    </div>
+    <div class="Quimica" id="yn">
+        <p class="NombreQuimica">Yn</p>
+    </div>
+    <div class="Quimica" id="al">
+        <p class="NombreQuimica">Al</p>
+    </div>
+    <div class="Quimica" id="me">
+        <p class="NombreQuimica">Me</p>
+    </div>
+    <!--abajo-->
+    <div class="Quimica" id="bn">
+        <p class="NombreQuimica">Bn</p>
+    </div>
+    <div class="Quimica" id="fu">
+        <p class="NombreQuimica">Fu</p>
+    </div>
+    <div class="Quimica" id="ju">
+        <p class="NombreQuimica">Ju</p>
+    </div>
+    <div class="Quimica" id="mn">
+        <p class="NombreQuimica">Mn</p>
+    </div>
+    <!--Bioquimicas-->
+    <div class="Bioquimica" id="hg">
+        <p class="nombre">Hg</p>
+    </div>
+    <div class="Bioquimica" id="bl">
+        <p class="nombre">Bl</p>
+    </div>
+    <div class="Bioquimica" id="sc">
+        <p class="nombre">Sc</p>
+    </div>
+    <div class="Bioquimica" id="mg">
+        <p class="nombre">Mg</p>
+    </div>
+    <div class="Bioquimica" id="ap">
+        <p class="nombre">Ap</p>
+    </div>
+    <div class="Bioquimica" id="t">
+        <p class="nombre">T</p>
+    </div>
+    <div class="Bioquimica" id="bw">
+        <p class="nombre">Bw</p>
+    </div>
+    <div class="Bioquimica" id="ng">
+        <p class="nombre">Ng</p>
+    </div>
+    <div class="Bioquimica" id="sv">
+        <p class="nombre">Sv</p>
+    </div>
+    <div class="Bioquimica" id="wt">
+        <p class="nombre">Wt</p>
+    </div>
+    <div class="Bioquimica" id="kl">
+        <p class="nombre">Kl</p>
+    </div>
+    <div class="Bioquimica" id="ch">
+        <p class="nombre">Ch</p>
+    </div>
+    <div class="Bioquimica" id="do">
+        <p class="nombre">Do</p>
+    </div>
+    <div class="Bioquimica" id="lm">
+        <p class="nombre">Lm</p>
+    </div>
+    <div class="Bioquimica" id="nu">
+        <p class="nombre">Nu</p>
+    </div>
+    <div class="Bioquimica" id="br">
+        <p class="nombre">Br</p>
+    </div>
+    <div class="Bioquimica" id="gr">
+        <p class="nombre">Gr</p>
+    </div>
+    <div class="Bioquimica" id="y">
+        <p class="nombre">Y</p>
+    </div>
+    <div class="Bioquimica" id="bt">
+        <p class="nombre">Bt</p>
+    </div>
+    <div class="Bioquimica" id="yw">
+        <p class="nombre">Yw</p>
+    </div>
+    <div class="Bioquimica" id="sn">
+        <p class="nombre">Sn</p>
+    </div>
+    <div class="Bioquimica" id="el">
+        <p class="nombre">El</p>
+    </div>
+    <div class="Bioquimica" id="co">
+        <p class="nombre">Co</p>
+    </div>
+    <div class="Bioquimica" id="ck">
+        <p class="nombre">Ck</p>
+    </div>
+    <div class="Bioquimica" id="b">
+        <p class="nombre">B</p>
+    </div>
+    <div class="Bioquimica" id="ms">
+        <p class="nombre">Ms</p>
+    </div>
+    <!--abajo-->
+    <div class="Bioquimica" id="sl">
+        <p class="nombre">Sl</p>
+    </div>
+    <div class="Bioquimica" id="vr">
+        <p class="nombre">Vr</p>
+    </div>
+    <div class="Bioquimica" id="bc">
+        <p class="nombre">Bc</p>
+    </div>
+    <div class="Bioquimica" id="ni">
+        <p class="nombre">Ni</p>
+    </div>
+    <div class="Bioquimica" id="zn">
+        <p class="nombre">Zn</p>
+    </div>
+    <div class="Bioquimica" id="bd">
+        <p class="nombre">Bd</p>
+    </div>
+    <div class="Bioquimica" id="mo">
+        <p class="nombre">Mo</p>
+    </div>
+    <!--Primatologicas-->
+    <div class="Prima" id="gd">
+        <p class="nombre">Gd</p>
+    </div>
+</body>
+
+</html>
